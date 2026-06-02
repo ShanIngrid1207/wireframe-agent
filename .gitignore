@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+
+# Build output
+frontend/dist/
+
+# Generated data (keep folders, ignore contents)
+backend/data/responses.json
+backend/data/specs/*.json
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
