@@ -1,0 +1,111 @@
+{
+  "client": {
+    "business_name": "Bloom Cafe",
+    "tagline": "Slow mornings, good coffee",
+    "business_description": "A neighborhood specialty coffee shop and bakery focused on locally roasted beans, fresh pastries, and a cozy place to gather.",
+    "design_style": "Warm, cozy, hand-crafted and welcoming",
+    "avoid": "Nothing corporate, cold, or high-tech feeling",
+    "colors": ["terracotta", "cream", "sage green"],
+    "fonts": ["friendly serif", "rounded sans"],
+    "content_owner": "Designer writes the copy from the owner's notes",
+    "media_owner": "Owner shares phone photos; designer may source a few stock images",
+    "brand_assets_url": "https://drive.google.com/drive/folders/sample-bloom-brand-assets"
+  },
+  "tone": "warm",
+  "pages": [
+    {
+      "name": "Home",
+      "sections": [
+        { "type": "nav", "variant": "centered", "placeholder_copy": true, "placeholder_media": true, "notes": "Simple warm nav, logo centered or left, a 'Visit Us' link that stands out." },
+        { "type": "hero", "variant": "split", "placeholder_copy": true, "placeholder_media": true, "notes": "Cozy photo of the space or a latte on the right. Headline should feel personal and inviting." },
+        { "type": "about", "variant": "split", "placeholder_copy": true, "placeholder_media": true, "notes": "Owner's story — why the cafe exists. A candid photo beats a polished one here." },
+        { "type": "gallery", "variant": "grid-3col", "placeholder_copy": false, "placeholder_media": true, "notes": "Pastries, drinks, and the room. Warmth sells the visit — show the atmosphere." },
+        { "type": "testimonials", "variant": "grid-2col", "placeholder_copy": true, "placeholder_media": false, "notes": "Two short, friendly regulars' quotes." },
+        { "type": "cta", "variant": "fullwidth", "placeholder_copy": true, "placeholder_media": false, "notes": "Terracotta band: 'Come say hi' with hours and a Get Directions button." },
+        { "type": "contact", "variant": "centered", "placeholder_copy": true, "placeholder_media": false, "notes": "Hours, address, and a small message form. Keep it relaxed, not formal." },
+        { "type": "footer", "variant": "grid-3col", "placeholder_copy": true, "placeholder_media": false, "notes": "Hours, social links, and location. Friendly sign-off line." }
+      ]
+    },
+    {
+      "name": "Menu",
+      "sections": [
+        { "type": "nav", "variant": "centered", "placeholder_copy": true, "placeholder_media": true, "notes": "Consistent warm nav." },
+        { "type": "hero", "variant": "centered", "placeholder_copy": true, "placeholder_media": false, "notes": "Short headline: 'On the menu today.'" },
+        { "type": "pricing", "variant": "grid-3col", "placeholder_copy": true, "placeholder_media": false, "notes": "Use the pricing layout as a menu board: Coffee, Tea, Bakery columns with item rows and prices." },
+        { "type": "gallery", "variant": "grid-3col", "placeholder_copy": false, "placeholder_media": true, "notes": "A few hero shots of signature items." },
+        { "type": "footer", "variant": "grid-3col", "placeholder_copy": true, "placeholder_media": false, "notes": "Consistent footer." }
+      ]
+    }
+  ],
+  "design_tokens": {
+    "primary_color": "#B05C3B",
+    "accent_color": "#7C9070",
+    "background_color": "#FBF6EE",
+    "surface_color": "#FFFFFF",
+    "text_color": "#3A2E27",
+    "font_heading": "Lora",
+    "font_body": "Nunito",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito:wght@400&display=swap"
+  },
+  "reference_insights": "Let warm photography of the space and the food lead — the site should feel like a personal invitation to drop by, not a transaction.",
+  "reference_details": {
+    "nav_pattern": "Lightweight top nav with a clear 'Visit Us' link; warm, uncluttered.",
+    "hero_pattern": "Split hero with an inviting lifestyle photo and a short, personal headline.",
+    "content_pattern": "Story-first sections with generous photography and plenty of breathing room.",
+    "cta_pattern": "Gentle, recurring 'Come visit' prompts with hours and directions rather than hard sells.",
+    "trust_elements": ["lots of real photos of the space", "locally roasted callout", "friendly regulars' reviews", "clear hours & location"],
+    "layout_principles": ["photo-led storytelling", "generous whitespace", "warm rounded type", "soft natural palette", "low-pressure CTAs"],
+    "what_to_borrow": "The photo-led, story-first feel that makes a visitor want to come in and sit down.",
+    "what_to_avoid": "Avoid dense menus or anything that feels corporate or high-tech — it would break the cozy mood.",
+    "_failed": false,
+    "_fetched": true
+  },
+  "constraints": "Keep everything warm and hand-crafted. Avoid cold, corporate, or high-tech styling; favor soft edges, natural tones, and friendly type.",
+  "designer_summary": "Bloom Cafe wants to feel like a warm neighborhood favorite — cozy, personal, and photo-led. Use a soft terracotta-and-sage palette with friendly type, and let the owner's real photos carry the mood. Watch-out: keep CTAs gentle and avoid anything that reads as corporate or transactional.",
+  "palette_rationale": "A warm terracotta primary feels inviting and hand-crafted, balanced by a soft sage accent and a creamy background that together evoke a cozy, natural cafe atmosphere.",
+  "font_rationale": "Lora brings a gentle, friendly warmth to headings, paired with the rounded, highly readable Nunito for an approachable body voice.",
+  "skills_summary": {
+    "palette": {
+      "primary": "#B05C3B",
+      "accent": "#7C9070",
+      "background": "#FBF6EE",
+      "surface": "#FFFFFF",
+      "text": "#3A2E27",
+      "rationale": "A warm terracotta primary feels inviting and hand-crafted, balanced by a soft sage accent and a creamy background that together evoke a cozy, natural cafe atmosphere.",
+      "_failed": false
+    },
+    "fonts": {
+      "heading_font": "Lora",
+      "body_font": "Nunito",
+      "heading_weight": "600",
+      "body_weight": "400",
+      "heading_size_desktop": "52px",
+      "body_size_desktop": "17px",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito:wght@400&display=swap",
+      "rationale": "Lora brings a gentle, friendly warmth to headings, paired with the rounded, highly readable Nunito for an approachable body voice.",
+      "_failed": false
+    },
+    "reference": {
+      "nav_pattern": "Lightweight top nav with a clear 'Visit Us' link; warm, uncluttered.",
+      "hero_pattern": "Split hero with an inviting lifestyle photo and a short, personal headline.",
+      "content_pattern": "Story-first sections with generous photography and plenty of breathing room.",
+      "cta_pattern": "Gentle, recurring 'Come visit' prompts with hours and directions rather than hard sells.",
+      "trust_elements": ["lots of real photos of the space", "locally roasted callout", "friendly regulars' reviews", "clear hours & location"],
+      "layout_principles": ["photo-led storytelling", "generous whitespace", "warm rounded type", "soft natural palette", "low-pressure CTAs"],
+      "what_to_borrow": "The photo-led, story-first feel that makes a visitor want to come in and sit down.",
+      "what_to_avoid": "Avoid dense menus or anything that feels corporate or high-tech — it would break the cozy mood.",
+      "_failed": false,
+      "_fetched": true
+    }
+  },
+  "skills_status": {
+    "palette": { "ok": true, "skipped": false, "error": null },
+    "fonts": { "ok": true, "skipped": false, "error": null },
+    "reference": { "ok": true, "skipped": false, "error": null }
+  },
+  "_meta": {
+    "index": 1,
+    "business_name": "Bloom Cafe",
+    "created_at": "2026-06-03T12:05:00.000Z"
+  }
+}

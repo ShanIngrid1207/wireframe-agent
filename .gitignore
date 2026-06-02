@@ -11,6 +11,11 @@ frontend/dist/
 backend/data/responses.json
 backend/data/specs/*.json
 
+# ...but DO keep the demo sample data so the deployed app has content to show
+!backend/data/responses.json
+!backend/data/specs/0-quest-construction.json
+!backend/data/specs/1-bloom-cafe.json
+
 # Logs / OS
 *.log
 .DS_Store

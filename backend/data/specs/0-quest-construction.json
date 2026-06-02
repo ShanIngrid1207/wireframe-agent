@@ -1,0 +1,111 @@
+{
+  "client": {
+    "business_name": "Quest Construction",
+    "tagline": "Building trust, one project at a time",
+    "business_description": "A family-owned general contractor specializing in residential remodels, custom home builds, and commercial tenant improvements across the region.",
+    "design_style": "Professional, grounded, trustworthy — solid and established, not flashy",
+    "avoid": "No neon colors, no overly modern or playful styling",
+    "colors": ["deep navy", "warm amber", "off-white"],
+    "fonts": ["classic serif", "clean sans"],
+    "content_owner": "Client provides project descriptions; designer polishes copy",
+    "media_owner": "Client has a strong library of jobsite and finished-project photos",
+    "brand_assets_url": "https://drive.google.com/drive/folders/sample-quest-brand-assets"
+  },
+  "tone": "trustworthy",
+  "pages": [
+    {
+      "name": "Home",
+      "sections": [
+        { "type": "nav", "variant": "left-aligned", "placeholder_copy": true, "placeholder_media": true, "notes": "Sticky nav, logo left, phone number as an amber CTA button on the right — make it easy to call." },
+        { "type": "hero", "variant": "split", "placeholder_copy": true, "placeholder_media": true, "notes": "Use a large finished-project photo on the right. Client has strong media — let it carry the section." },
+        { "type": "services", "variant": "grid-3col", "placeholder_copy": true, "placeholder_media": false, "notes": "Three pillars: Residential Remodels, Custom Homes, Commercial. Keep copy short and concrete." },
+        { "type": "gallery", "variant": "grid-3col", "placeholder_copy": false, "placeholder_media": true, "notes": "Before/after project photos build credibility fast — feature 6 of the best." },
+        { "type": "about", "variant": "split", "placeholder_copy": true, "placeholder_media": true, "notes": "Family-owned story + team photo. Emphasize years in business and licensing." },
+        { "type": "testimonials", "variant": "grid-2col", "placeholder_copy": true, "placeholder_media": false, "notes": "Two strong client quotes with names and project type." },
+        { "type": "cta", "variant": "fullwidth", "placeholder_copy": true, "placeholder_media": false, "notes": "Bold amber band: 'Ready to start your project?' with a single Request a Quote button." },
+        { "type": "contact", "variant": "centered", "placeholder_copy": true, "placeholder_media": false, "notes": "Simple quote-request form: name, email, phone, project details. Keep it short to maximize submissions." },
+        { "type": "footer", "variant": "grid-3col", "placeholder_copy": true, "placeholder_media": false, "notes": "Logo + license number, quick links, and contact info. Repeat the phone number." }
+      ]
+    },
+    {
+      "name": "Contact",
+      "sections": [
+        { "type": "nav", "variant": "left-aligned", "placeholder_copy": true, "placeholder_media": true, "notes": "Same sticky nav for consistency." },
+        { "type": "hero", "variant": "centered", "placeholder_copy": true, "placeholder_media": false, "notes": "Short headline: 'Let's build something great together.'" },
+        { "type": "contact", "variant": "centered", "placeholder_copy": true, "placeholder_media": false, "notes": "Full quote form plus office address and hours beside it." },
+        { "type": "footer", "variant": "grid-3col", "placeholder_copy": true, "placeholder_media": false, "notes": "Consistent footer." }
+      ]
+    }
+  ],
+  "design_tokens": {
+    "primary_color": "#1D3557",
+    "accent_color": "#E07A1F",
+    "background_color": "#F7F5F2",
+    "surface_color": "#FFFFFF",
+    "text_color": "#1A1A1A",
+    "font_heading": "Libre Baskerville",
+    "font_body": "Source Sans 3",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+3:wght@400&display=swap"
+  },
+  "reference_insights": "Lead with a full-bleed project photo and keep the phone number visible at all times — credibility and an easy path to contact are doing the heavy lifting.",
+  "reference_details": {
+    "nav_pattern": "Sticky top nav, logo left, 4 links right, phone number rendered as a colored CTA button.",
+    "hero_pattern": "Full-bleed finished-project image with a short headline overlay and a single primary CTA.",
+    "content_pattern": "Alternating image-text rows for services and about, with a 3-column project/service grid below the fold.",
+    "cta_pattern": "Persistent phone number top-right plus a recurring 'Request a Quote' band between sections.",
+    "trust_elements": ["years in business badge", "licensed & insured", "project photo galleries", "client testimonials"],
+    "layout_principles": ["sticky nav with phone CTA", "full-bleed hero with one clear CTA", "alternating image-text rows", "3-column service grid", "social proof above the fold"],
+    "what_to_borrow": "The always-visible phone CTA paired with large, real project photography that proves the quality of work.",
+    "what_to_avoid": "Avoid stock-photo gloss — this client's own jobsite photos are more convincing than polished stock imagery.",
+    "_failed": false,
+    "_fetched": true
+  },
+  "constraints": "No neon or playful styling. Keep typography classic and the layout uncluttered so the brand reads as established and dependable.",
+  "designer_summary": "Quest Construction is a family-owned contractor that wants to feel solid, credible, and easy to contact. Lean on their strong project photography and keep a calm navy/amber palette with classic type. Watch-out: avoid anything trendy or flashy — trust is the priority, and the phone CTA should never be more than a glance away.",
+  "palette_rationale": "A deep navy anchors the brand with stability and professionalism, while a warm amber accent adds approachability and draws the eye to calls-to-action against the soft off-white background.",
+  "font_rationale": "Libre Baskerville gives headlines a classic, dependable authority, paired with the highly readable Source Sans 3 for clean, modern body text.",
+  "skills_summary": {
+    "palette": {
+      "primary": "#1D3557",
+      "accent": "#E07A1F",
+      "background": "#F7F5F2",
+      "surface": "#FFFFFF",
+      "text": "#1A1A1A",
+      "rationale": "A deep navy anchors the brand with stability and professionalism, while a warm amber accent adds approachability and draws the eye to calls-to-action against the soft off-white background.",
+      "_failed": false
+    },
+    "fonts": {
+      "heading_font": "Libre Baskerville",
+      "body_font": "Source Sans 3",
+      "heading_weight": "700",
+      "body_weight": "400",
+      "heading_size_desktop": "56px",
+      "body_size_desktop": "17px",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+3:wght@400&display=swap",
+      "rationale": "Libre Baskerville gives headlines a classic, dependable authority, paired with the highly readable Source Sans 3 for clean, modern body text.",
+      "_failed": false
+    },
+    "reference": {
+      "nav_pattern": "Sticky top nav, logo left, 4 links right, phone number rendered as a colored CTA button.",
+      "hero_pattern": "Full-bleed finished-project image with a short headline overlay and a single primary CTA.",
+      "content_pattern": "Alternating image-text rows for services and about, with a 3-column project/service grid below the fold.",
+      "cta_pattern": "Persistent phone number top-right plus a recurring 'Request a Quote' band between sections.",
+      "trust_elements": ["years in business badge", "licensed & insured", "project photo galleries", "client testimonials"],
+      "layout_principles": ["sticky nav with phone CTA", "full-bleed hero with one clear CTA", "alternating image-text rows", "3-column service grid", "social proof above the fold"],
+      "what_to_borrow": "The always-visible phone CTA paired with large, real project photography that proves the quality of work.",
+      "what_to_avoid": "Avoid stock-photo gloss — this client's own jobsite photos are more convincing than polished stock imagery.",
+      "_failed": false,
+      "_fetched": true
+    }
+  },
+  "skills_status": {
+    "palette": { "ok": true, "skipped": false, "error": null },
+    "fonts": { "ok": true, "skipped": false, "error": null },
+    "reference": { "ok": true, "skipped": false, "error": null }
+  },
+  "_meta": {
+    "index": 0,
+    "business_name": "Quest Construction",
+    "created_at": "2026-06-03T12:00:00.000Z"
+  }
+}

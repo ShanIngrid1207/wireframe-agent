@@ -1,0 +1,48 @@
+[
+  {
+    "timestamp": "2026-06-01 09:14:22",
+    "business_name": "Quest Construction",
+    "tagline": "Building trust, one project at a time",
+    "business_description": "A family-owned general contractor specializing in residential remodels, custom home builds, and commercial tenant improvements across the region.",
+    "preferred_colors": "Deep navy and a warm amber, with clean off-white backgrounds",
+    "preferred_fonts": "Something classic and dependable, not trendy",
+    "core_features": [
+      "Project gallery",
+      "Services overview",
+      "Request a quote form",
+      "Customer testimonials",
+      "About the team"
+    ],
+    "content_owner": "Client provides project descriptions; designer polishes copy",
+    "media_owner": "Client has a strong library of jobsite and finished-project photos",
+    "design_style": "Professional, grounded, trustworthy — solid and established, not flashy",
+    "avoid": "No neon colors, no overly modern or playful styling",
+    "reference": "https://www.example-contractor.com",
+    "reference_why": "Their site feels solid and credible — big project photos, a clear phone number up top, and obvious calls to action.",
+    "brand_assets_url": "https://drive.google.com/drive/folders/sample-quest-brand-assets",
+    "slug": "quest-construction"
+  },
+  {
+    "timestamp": "2026-06-01 11:42:08",
+    "business_name": "Bloom Cafe",
+    "tagline": "Slow mornings, good coffee",
+    "business_description": "A neighborhood specialty coffee shop and bakery focused on locally roasted beans, fresh pastries, and a cozy place to gather.",
+    "preferred_colors": "Warm terracotta, soft cream, a little sage green",
+    "preferred_fonts": "Friendly and inviting, a little hand-crafted feel",
+    "core_features": [
+      "Menu",
+      "Photo gallery",
+      "Our story",
+      "Visit us / hours & location",
+      "Customer reviews"
+    ],
+    "content_owner": "Designer writes the copy from the owner's notes",
+    "media_owner": "Owner shares phone photos; designer may source a few stock images",
+    "design_style": "Warm, cozy, hand-crafted and welcoming",
+    "avoid": "Nothing corporate, cold, or high-tech feeling",
+    "reference": "https://www.example-cafe.com",
+    "reference_why": "It feels warm and personal — lots of photos of the space and the food, and it makes you want to visit.",
+    "brand_assets_url": "https://drive.google.com/drive/folders/sample-bloom-brand-assets",
+    "slug": "bloom-cafe"
+  }
+]
